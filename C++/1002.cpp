@@ -4,8 +4,8 @@ using namespace std;
  
 int main() 
 {
- 
-  double x, y; 
+	 
+  	double x, y; 
 	
 	cin >> x;
 	
@@ -14,5 +14,5 @@ int main()
 	cout.precision(4);
 	cout << fixed << "A=" << y << endl;
  
-  return 0;
+  	return 0;
 }
