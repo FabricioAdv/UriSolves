@@ -4,7 +4,7 @@ using namespace std;
  
 int main() 
 {
-    	int x[2], y; 
+    int x[2], y; 
 	
 	cin >> x[0] >> x[1];
 	
@@ -12,5 +12,5 @@ int main()
 	
 	cout << "SOMA = " << y << endl;
  
-    	return 0;
+    return 0;
 }
