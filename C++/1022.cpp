@@ -69,5 +69,5 @@ int main()
 		cout << c[i + 1] << "/" << c[i] << " = " << c[i + 1] / div << "/" << c[i] / div << endl;
 	}
 	
-    return 0;
+    	return 0;
 }
