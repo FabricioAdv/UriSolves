@@ -2,15 +2,14 @@
  
 using namespace std;
  
-int main() {
- 
-    double x[2];
+int main() 
+{ 
+     double x[2];
     
-    cin >> x[0] >> x[1];
+     cin >> x[0] >> x[1];
     
-    cout << fixed;
-    cout.precision(3);
-    cout << (x[0] * x[1]) / 12 << endl;
+     cout.precision(3);
+     cout << fixed << (x[0] * x[1]) / 12 << endl;
  
-    return 0;
+     return 0;
 }
