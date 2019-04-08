@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void quick_sort(int vetor[], int inicio, int fim)
+void quick_sort (int vetor[], int inicio, int fim)
 {
    	int pivo, aux, i, j, meio;
    
@@ -14,31 +14,31 @@ void quick_sort(int vetor[], int inicio, int fim)
    
    	do
 	{
-      	while (vetor[i] < pivo)
+      		while (vetor[i] < pivo)
 		{
 			i = i + 1;	
 		} 
-      	while (vetor[j] > pivo)
+      		while (vetor[j] > pivo)
 		{
 			j = j - 1;
 		} 
       
-      	if(i <= j)
+      		if(i <= j)
 		{
-         	aux = vetor[i];
-         	vetor[i] = vetor[j];
-         	vetor[j] = aux;
-         	i = i + 1;
-         	j = j - 1;
-      	}
-   	}while(j > i);
+         		aux = vetor[i];
+         		vetor[i] = vetor[j];
+         		vetor[j] = aux;
+         		i = i + 1;
+         		j = j - 1;
+      		}
+   	} while(j > i);
    
-   	if(inicio < j)
+   	if (inicio < j)
    	{
    		quick_sort(vetor, inicio, j);
 	}
 	
-   	if(i < fim)
+   	if (i < fim)
 	{
 	   	quick_sort(vetor, i, fim);
 	}    
