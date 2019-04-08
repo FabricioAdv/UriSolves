@@ -68,5 +68,5 @@ int main()
 		cout << sEntrada << endl;
 	}
 	
-    return 0;
+    	return 0;
 }
