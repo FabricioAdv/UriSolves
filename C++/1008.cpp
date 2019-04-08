@@ -2,9 +2,9 @@
  
 using namespace std;
  
-int main() {
- 
-    double x[3], y; 
+int main() 
+{
+    	double x[3], y; 
 	
 	cin >> x[0] >> x[1] >> x[2];
 	
@@ -12,9 +12,8 @@ int main() {
 	
 	cout << "NUMBER = " << x[0] << endl;
 	
-	cout << fixed;
 	cout.precision(2);
-	cout << "SALARY = U$ " << y << endl;
+	cout << fixed << "SALARY = U$ " << y << endl;
  
-    return 0;
+    	return 0;
 }
