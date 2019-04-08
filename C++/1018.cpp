@@ -2,9 +2,9 @@
  
 using namespace std;
  
-int main() {
- 
-    int x, y[14]; 
+int main() 
+{ 
+    	int x, y[14]; 
 	
 	cin >> x;
 	
@@ -86,5 +86,5 @@ int main() {
 	cout << y[10] << " nota(s) de R$ 2,00" << endl;
 	cout << y[11] << " nota(s) de R$ 1,00" << endl;
  
-    return 0;
+    	return 0;
 }
