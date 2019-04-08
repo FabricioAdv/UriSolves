@@ -2,9 +2,9 @@
  
 using namespace std;
  
-int main() {
- 
-    int x[2], y; 
+int main() 
+{ 
+    	int x[2], y; 
 	
 	cin >> x[0] >> x[1];
 	
@@ -12,5 +12,5 @@ int main() {
 	
 	cout << "PROD = " << y << endl;
  
-    return 0;
+    	return 0;
 }
