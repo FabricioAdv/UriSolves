@@ -5,13 +5,12 @@ using namespace std;
 
 int main()
 {
-    double x[4];
+    	double x[4];
     
-    cin >> x[0] >> x[1] >> x[2] >> x[3];
+    	cin >> x[0] >> x[1] >> x[2] >> x[3];
     
-    cout << fixed;
-    cout.precision(4);
-    cout << sqrt(pow(x[2] - x[0], 2) + pow(x[3] - x[1], 2)) << endl;
+    	cout.precision(4);
+    	cout << fixed << sqrt(pow(x[2] - x[0], 2) + pow(x[3] - x[1], 2)) << endl;
 
 	return 0;
 }
