@@ -13,7 +13,7 @@ bool sort_comp (const pair<int,int> &a, const pair<int,int> &b)
 		return true;
 	}
 	
-    return false; 
+    	return false; 
 }
 
 int verf (vector < pair <int, int> > num, int casos, int y)
@@ -86,5 +86,5 @@ int main ()
 		cout << rs << endl;
 	}
 	
-    return 0;
+    	return 0;
 }
